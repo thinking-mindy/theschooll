@@ -244,112 +244,30 @@
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Accessing The School LMS
 
-Before you begin, ensure you have the following installed:
+The School LMS is a cloud-based platform accessible through your web browser. To get started:
 
-- **Node.js** 18+ (LTS recommended)
-- **npm**, **yarn**, or **pnpm** package manager
-- **MongoDB** database (local or cloud instance)
-- **Clerk** account for authentication (or alternative auth provider)
-- **Git** for version control
+1. **Visit the Application URL** - Access the system through the URL provided by your institution
+2. **Sign In** - Use your credentials provided by your administrator
+3. **Navigate Your Dashboard** - Once signed in, you'll be directed to your role-specific dashboard
 
-### Installation
+### First Time Users
 
-#### 1. Clone the Repository
+- **Students**: You'll see your enrolled courses, assignments, and academic progress
+- **Teachers**: Access your assigned courses, student management, and grading tools
+- **Administrators**: Manage users, programs, courses, and system settings
+- **Parents**: Monitor your children's academic progress and payment status
 
-```bash
-git clone https://github.com/thinking-mindy/theschool.git
-cd theschool
-```
+### Need Help?
 
-#### 2. Install Dependencies
-
-```bash
-# Using npm
-npm install
-
-# Using yarn
-yarn install
-
-# Using pnpm
-pnpm install
-```
-
-#### 3. Configure Environment Variables
-
-Create a `.env` file in the root directory:
-
-```bash
-cp .env.example .env
-```
-
-Edit `.env` with your configuration:
-
-```env
-# Database Configuration
-MONGODB_URI=your_mongodb_connection_string
-DATABASE_NAME=theschool
-
-# Authentication (Clerk)
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
-
-# Application
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-```
-
-#### 4. Seed the Database (Optional)
-
-Populate the database with sample data:
-
-```bash
-npm run seed
-```
-
-#### 5. Run Development Server
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Building for Production
-
-#### Build the Application
-
-```bash
-npm run build
-```
-
-#### Start Production Server
-
-```bash
-npm start
-```
-
-#### Run Linting
-
-```bash
-npm run lint
-```
-
-#### Run Tests
-
-```bash
-npm run test
-```
+If you need assistance accessing the system or have questions about your account, please contact your institution's administrator or reach out to our support team using the contact information in the [Support](#-support) section.
 
 ---
 
 ## 📝 Changelog
 
-> 📌 **Note**: This repository tracks updates and improvements. See what's new in each version below.
+> 📌 **Note**: This system is continuously updated with new features and improvements. See what's new in each version below.
 
 ### 🎯 Version 5.0.0 (Current Release)
 
@@ -438,13 +356,15 @@ npm run test
 
 ## 📚 Documentation
 
-Comprehensive documentation is available in the `/docs` directory:
+Comprehensive user guides and documentation are available for all user roles:
 
-- 📖 [Getting Started Guide](./docs/README.md) - Overview and setup instructions
-- 👨‍🎓 [Student Guide](./docs/students.md) - Complete student user manual
-- 👨‍🏫 [Teacher Guide](./docs/teachers.md) - Complete teacher user manual
-- 👨‍💼 [Administrator Guide](./docs/admin.md) - Complete admin user manual
-- 👨‍👩‍👧‍👦 [Parent Guide](./docs/parents.md) - Complete parent user manual
+- 📖 **Getting Started Guide** - Overview and basic instructions
+- 👨‍🎓 **Student Guide** - Complete student user manual
+- 👨‍🏫 **Teacher Guide** - Complete teacher user manual
+- 👨‍💼 **Administrator Guide** - Complete admin user manual
+- 👨‍👩‍👧‍👦 **Parent Guide** - Complete parent user manual
+
+For access to detailed documentation, please contact your institution's administrator or reach out to our support team.
 
 ---
 
@@ -523,11 +443,5 @@ Powered by modern web technologies including Next.js, React, and Material-UI
 </table>
 
 ---
-
-<div align="center">
-
-**⭐ If you find this project useful, please consider giving it a star!**
-
-</div>
 
 </div>
