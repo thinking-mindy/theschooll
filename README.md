@@ -13,13 +13,14 @@
 
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://thinkingminds.co.zw)
-[![Version](https://img.shields.io/badge/Version-5.0.0-blue?style=for-the-badge)](https://github.com/thinking-mindy/theschool)
+[![Live System](https://img.shields.io/badge/Live%20System-Available-success?style=for-the-badge)](https://theschool.thinkingminds.co.zw)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/thinking-mindy/theschool)
 
 ---
 
 **Quick Links:** [✨ Features](#-features) • [🚀 Getting Started](#-getting-started) • [📝 Changelog](#-changelog) • [🆘 Support](#-support)
 
-[🌐 Website](https://thinkingminds.co.zw) • [📧 Email](mailto:thinkingminds@gmail.com) • [📱 WhatsApp](https://wa.me/263771657582)
+[🌐 Live System](https://theschool.thinkingminds.co.zw) • [🌐 Website](https://thinkingminds.co.zw) • [📧 Email](mailto:thinkingminds@gmail.com) • [📱 WhatsApp](https://wa.me/263771657582)
 
 </div>
 
@@ -248,7 +249,7 @@
 
 The School LMS is a cloud-based platform accessible through your web browser. To get started:
 
-1. **Visit the Application URL** - Access the system through the URL provided by your institution
+1. **Visit the Application** - Access the system at [https://theschool.thinkingminds.co.zw](https://theschool.thinkingminds.co.zw)
 2. **Sign In** - Use your credentials provided by your administrator
 3. **Navigate Your Dashboard** - Once signed in, you'll be directed to your role-specific dashboard
 
