@@ -269,7 +269,7 @@ If you need assistance accessing the system or have questions about your account
 
 > 📌 **Note**: This system is continuously updated with new features and improvements. See what's new in each version below.
 
-### 🎯 Version 5.0.0 (Current Release)
+### 🎯 Version 1.0.0 (Current Release)
 
 <details>
 <summary><b>🎨 UI/UX Improvements</b></summary>
